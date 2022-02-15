@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreDapper", "DotNetCoreDapper\DotNetCoreDapper.csproj", "{12C6A147-5D96-40D8-A330-3040BD052022}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DotNetCoreDapperDB", "DotNetCoreDapperDB\DotNetCoreDapperDB.sqlproj", "{4C828A7F-2F49-4A89-953D-70F0A1843EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3C99BD7D-1CC4-47D3-9192-45119AED7DF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C6A147-5D96-40D8-A330-3040BD052022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C6A147-5D96-40D8-A330-3040BD052022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C6A147-5D96-40D8-A330-3040BD052022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C6A147-5D96-40D8-A330-3040BD052022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C828A7F-2F49-4A89-953D-70F0A1843EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C828A7F-2F49-4A89-953D-70F0A1843EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C828A7F-2F49-4A89-953D-70F0A1843EFD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C828A7F-2F49-4A89-953D-70F0A1843EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C828A7F-2F49-4A89-953D-70F0A1843EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C828A7F-2F49-4A89-953D-70F0A1843EFD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3C99BD7D-1CC4-47D3-9192-45119AED7DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C99BD7D-1CC4-47D3-9192-45119AED7DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C99BD7D-1CC4-47D3-9192-45119AED7DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C99BD7D-1CC4-47D3-9192-45119AED7DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5427811C-E8A0-4850-BE03-A69BEFB0755E}
+	EndGlobalSection
+EndGlobal
